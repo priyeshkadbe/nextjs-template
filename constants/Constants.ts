@@ -1,0 +1,1 @@
+export const GOERLI_ID=5;
