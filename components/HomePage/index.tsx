@@ -24,9 +24,9 @@ function HomePage({ children }: Props) {
   return (
     <div className="bg-[#0F1425] h-screen">
       <div className="flex justify-center items-center p-4 md:p-6">
-        <div className="w-full bg-[#2A3244] rounded-sm md:rounded-lg p-2  md:w-2/3 flex flex-col ">
+       
           {children}
-        </div>
+        
       </div>
     </div>
   );
