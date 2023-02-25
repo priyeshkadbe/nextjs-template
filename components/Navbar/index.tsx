@@ -102,6 +102,7 @@ const Navbar = ({
   //   }
   // };
 
+  
   const accountsChangedHandler = async (accounts: string[]) => {
     const provider = new ethers.providers.Web3Provider(window.ethereum);
     const address = accounts[0];
